@@ -1,0 +1,15 @@
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.AssemblyInfoInputs.cache
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.AssemblyInfo.cs
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.csproj.CoreCompileInputs.cache
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.sourcelink.json
+/workspaces/practicas-poo/practica 5/bin/Debug/net8.0/practica 5
+/workspaces/practicas-poo/practica 5/bin/Debug/net8.0/practica 5.deps.json
+/workspaces/practicas-poo/practica 5/bin/Debug/net8.0/practica 5.runtimeconfig.json
+/workspaces/practicas-poo/practica 5/bin/Debug/net8.0/practica 5.dll
+/workspaces/practicas-poo/practica 5/bin/Debug/net8.0/practica 5.pdb
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.dll
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/refint/practica 5.dll
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.pdb
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/practica 5.genruntimeconfig.cache
+/workspaces/practicas-poo/practica 5/obj/Debug/net8.0/ref/practica 5.dll
