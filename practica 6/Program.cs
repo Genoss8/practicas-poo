@@ -3,34 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System;
 
-namespace U3_Practica_04
+namespace U3_Practica_05
 {
-    internal class Termostato
+    public class Calefaccion
     {
-        static string estado;
-        static int valor = 0;
-        private Calefaccion calefaccion;
-        static Termostato()
+        public void EncenderCalefaccion()
         {
-            Console.WriteLine("Inicialisemos el termostato...");
-            estado = "Apagado";
-            valor = 72;
-            Console.WriteLine($"Estado actual: {estado}. Temperatura inicial: {valor}");
-
+            Console.WriteLine("Calefacción encendida.");
         }
+
+        public void ApagarCalefaccion()
+        {
+            Console.WriteLine("Calefacción apagada.");
+        }
+    }
+
+    public class Termostato
+    {
+        private string estado;
+        private int valor;
+        private Calefaccion calefaccion;
+
         public Termostato()
         {
+            estado = "Apagado";
+            valor = 72;
             calefaccion = new Calefaccion();
+            Console.WriteLine($"Termostato inicializado. Estado actual: {estado}. Temperatura inicial: {valor}");
         }
 
-
-        public void Temperaura(int temp)
+        public int Temperatura
         {
-            valor = temp;
-            Console.WriteLine("La temperatura fijada es:" + valor);
-
+            get { return valor; }
+            set { valor = value; Console.WriteLine("La temperatura fijada es: " + valor); }
         }
+
         public void Encender()
         {
             if (estado == "Apagado")

@@ -1,0 +1,5 @@
+/workspaces/practicas-poo/practica 6/obj/Debug/net8.0/practica 6.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/practicas-poo/practica 6/obj/Debug/net8.0/practica 6.AssemblyInfoInputs.cache
+/workspaces/practicas-poo/practica 6/obj/Debug/net8.0/practica 6.AssemblyInfo.cs
+/workspaces/practicas-poo/practica 6/obj/Debug/net8.0/practica 6.csproj.CoreCompileInputs.cache
+/workspaces/practicas-poo/practica 6/obj/Debug/net8.0/practica 6.sourcelink.json

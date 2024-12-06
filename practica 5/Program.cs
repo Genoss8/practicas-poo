@@ -13,7 +13,7 @@ namespace U3_practica_04
         {
             Console.WriteLine("Iniciando el termostato...");
             estado = "Apagado";
-            valor = 72;
+            valor = 30;
             Console.WriteLine("Estado actual: " + estado);
             Console.WriteLine("Valor de temperatura inicial: " + valor);
         }
