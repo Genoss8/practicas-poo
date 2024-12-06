@@ -1,41 +1,62 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace U3_practica_04
+namespace U3_Practica_04
 {
-    public class Termostato
+    internal class Termostato
     {
-        // Campos no estáticos para que cada instancia tenga su propio estado y valor
-        private string estado;
-        private int valor;
+        static string estado;
+        static int valor = 0;
+        private Calefaccion calefaccion;
+        static Termostato()
+        {
+            Console.WriteLine("Inicialisemos el termostato...");
+            estado = "Apagado";
+            valor = 72;
+            Console.WriteLine($"Estado actual: {estado}. Temperatura inicial: {valor}");
 
-        // Constructor de instancia
+        }
         public Termostato()
         {
-            Console.WriteLine("Iniciando el termostato...");
-            estado = "Apagado";
-            valor = 30;
-            Console.WriteLine("Estado actual: " + estado);
-            Console.WriteLine("Valor de temperatura inicial: " + valor);
+            calefaccion = new Calefaccion();
         }
 
-        // Método para fijar la temperatura
-        public void FijarTemperatura(int temp)
+
+        public void Temperaura(int temp)
         {
             valor = temp;
-            Console.WriteLine("La temperatura fijada es: " + valor);
+            Console.WriteLine("La temperatura fijada es:" + valor);
+
         }
-    }
-
-    // Programa de prueba
-    class Program
-    {
-        static void Main(string[] args)
+        public void Encender()
         {
-            // Crear una instancia del termostato
-            Termostato termostato = new Termostato();
+            if (estado == "Apagado")
+            {
+                estado = "Encendido";
+                calefaccion.EncenderCalefaccion();
+                Console.WriteLine("Termostato encendido.");
+            }
+            else
+            {
+                Console.WriteLine("El termostato ya está encendido.");
+            }
+        }
 
-            // Cambiar la temperatura
-            termostato.FijarTemperatura(25);
+        public void Apagar()
+        {
+            if (estado == "Encendido")
+            {
+                estado = "Apagado";
+                calefaccion.ApagarCalefaccion();
+                Console.WriteLine("Termostato apagado.");
+            }
+            else
+            {
+                Console.WriteLine("El termostato ya está apagado.");
+            }
         }
     }
 }
