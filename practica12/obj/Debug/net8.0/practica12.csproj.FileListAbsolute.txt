@@ -1,0 +1,15 @@
+/workspaces/practicas-poo/practica12/bin/Debug/net8.0/practica12
+/workspaces/practicas-poo/practica12/bin/Debug/net8.0/practica12.deps.json
+/workspaces/practicas-poo/practica12/bin/Debug/net8.0/practica12.runtimeconfig.json
+/workspaces/practicas-poo/practica12/bin/Debug/net8.0/practica12.dll
+/workspaces/practicas-poo/practica12/bin/Debug/net8.0/practica12.pdb
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.AssemblyInfoInputs.cache
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.AssemblyInfo.cs
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.csproj.CoreCompileInputs.cache
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.sourcelink.json
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.dll
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/refint/practica12.dll
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.pdb
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/practica12.genruntimeconfig.cache
+/workspaces/practicas-poo/practica12/obj/Debug/net8.0/ref/practica12.dll
